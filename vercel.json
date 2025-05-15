@@ -2,10 +2,12 @@
   "version": 2,
   "functions": {
     "index.php": { "runtime": "vercel-php@0.6.1" },
-    "api/**/*.php": { "runtime": "vercel-php@0.6.1" }
+    "GGST.php": { "runtime": "vercel-php@0.6.1" }
+    "TBHx.php": { "runtime": "vercel-php@0.6.1" }
   },
   "routes": [
     { "src": "/", "dest": "/index.php" },
-    { "src": "/(.*)", "dest": "/api/$1" }
+    { "src": "/", "dest": "/GGST.php" },
+    { "src": "/", "dest": "/TBHX.php" }
   ]
 }
